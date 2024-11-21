@@ -38,6 +38,21 @@ Install dependencies using:
 ```bash
 pip install requests argformat
 ```
+### If there is restrictions on installing packages globally, creating a virtual environment is the best option.
+Create a Virtual Environment:
+```bash
+python3 -m venv myenv
+```
+
+Activate the Virtual Environment:
+```bash
+source myenv/bin/activate
+```
+
+Install argformat within the Virtual Environment:
+```bash
+pip install requests argformat
+```
 
 ## Useage
 ```bash
