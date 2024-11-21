@@ -1,24 +1,26 @@
 # LFI-fuzz3r
 <p align="center"> 
-<a href="https://www.python.org/"><img alt="" src="https://img.shields.io/badge/python-3.9%2B-blue?logo=python&logoColor=88d4d7"/></a>
-&nbsp;
-<a href="https://www.microsoft.com/en-us/windows?r=1"><img alt="" src="https://img.shields.io/badge/OS-Windows-brighten?logo=windows&logoColor=blue&label=OS&labelColor=grey&color=blue"/></a><br>
 <a href="https://www.python.org/"><img alt="Python Version" src="https://img.shields.io/badge/python-3.6%2B-blue?logo=python&logoColor=white"/></a>
-<a href="https://github.com/3rr0r-505/LFI-fuzz3r/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/badge/license-MIT-green"/></a>
+&nbsp;
 <a href="https://pypi.org/project/requests/"><img alt="Dependency" src="https://img.shields.io/badge/dependency-requests-orange?logo=pypi&logoColor=white"/></a>
-<a href="https://github.com/3rr0r-505/LFI-fuzz3r"><img alt="Stars" src="https://img.shields.io/github/stars/3rr0r-505/LFI-fuzz3r.svg?style=social"/></a>
-<a href="https://github.com/3rr0r-505/LFI-fuzz3r/issues"><img alt="Issues" src="https://img.shields.io/github/issues/3rr0r-505/LFI-fuzz3r"/></a>
-<a href="https://github.com/3rr0r-505/LFI-fuzz3r"><img alt="Forks" src="https://img.shields.io/github/forks/3rr0r-505/LFI-fuzz3r?style=social"/></a>
-<a href="#"><img alt="Vulnerability Testing" src="https://img.shields.io/badge/tool-LFI%20Fuzzer-orange"/></a>
+&nbsp;
+<a href="#"><img alt="Vulnerability Testing" src="https://img.shields.io/badge/tool-LFI%20Fuzzer-red"/></a>
+&nbsp;
 <a href="#"><img alt="Security Tool" src="https://img.shields.io/badge/category-Security-blue"/></a>
+&nbsp;
 <a href="#"><img alt="Purpose" src="https://img.shields.io/badge/purpose-Pentesting-red"/></a>
-<a href="https://book.hacktricks.xyz"><img alt="LFI Reference" src="https://img.shields.io/badge/LFI-HackTricks-yellowgreen"/></a><br>
-
-
+&nbsp;
+<a href="https://book.hacktricks.xyz/pentesting-web/file-inclusion"><img alt="LFI Reference" src="https://img.shields.io/badge/LFI-HackTricks-yellowgreen"/></a><br>
+<a href="https://github.com/3rr0r-505/LFI-fuzz3r/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/badge/license-MIT-green"/></a>
+&nbsp;
+<a href="https://github.com/3rr0r-505/LFI-fuzz3r"><img alt="Stars" src="https://img.shields.io/github/stars/3rr0r-505/LFI-fuzz3r.svg?style=social"/></a>
+&nbsp;
+<a href="https://github.com/3rr0r-505/LFI-fuzz3r/issues"><img alt="Issues" src="https://img.shields.io/github/issues/3rr0r-505/LFI-fuzz3r"/></a>
+&nbsp;
+<a href="https://github.com/3rr0r-505/LFI-fuzz3r"><img alt="Forks" src="https://img.shields.io/github/forks/3rr0r-505/LFI-fuzz3r?style=social"/></a><br>
 </p>
 
-
-This script is designed to identify and exploit potential Local File Inclusion (LFI) vulnerabilities in web applications. It automates testing for file inclusion by appending common file paths to a base URL.
+This tool is designed to identify and exploit potential Local File Inclusion (LFI) vulnerabilities in web applications. It automates testing for file inclusion by appending common file paths to a base URL.
 
 ## Features
 - **Customizable URL and file paths**: Test any URL and use a file containing paths for exploration.
@@ -83,4 +85,4 @@ to compromises and exploits employed by malicious agents as defined in their
 respective threat models.
 
 ## License
-This project is licensed under the MIT License 2.0 - see the [LICENSE](https://github.com/3rr0r-505/KeySpy/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License 2.0 - see the [LICENSE](https://github.com/3rr0r-505/LFI-fuzz3r/blob/main/LICENSE) file for details.
