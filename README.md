@@ -4,13 +4,13 @@
 &nbsp;
 <a href="https://pypi.org/project/requests/"><img alt="Dependency" src="https://img.shields.io/badge/dependency-requests-orange?logo=pypi&logoColor=white"/></a>
 &nbsp;
-<a href="#"><img alt="Vulnerability Testing" src="https://img.shields.io/badge/tool-LFI%20Fuzzer-red"/></a>
+<a href="#"><img alt="Vulnerability Testing" src="https://img.shields.io/badge/tool-LFI%20Fuzzer-%23#1ccc1d"/></a>
 &nbsp;
 <a href="#"><img alt="Security Tool" src="https://img.shields.io/badge/category-Security-blue"/></a>
 &nbsp;
 <a href="#"><img alt="Purpose" src="https://img.shields.io/badge/purpose-Pentesting-red"/></a>
 &nbsp;
-<a href="https://book.hacktricks.xyz/pentesting-web/file-inclusion"><img alt="LFI Reference" src="https://img.shields.io/badge/LFI-HackTricks-yellowgreen"/></a><br>
+<a href="https://book.hacktricks.xyz/pentesting-web/file-inclusion"><img alt="LFI Reference" src="https://img.shields.io/badge/LFI-HackTricks-%23f51c00"/></a><br>
 <a href="https://github.com/3rr0r-505/LFI-fuzz3r/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/badge/license-MIT-green"/></a>
 &nbsp;
 <a href="https://github.com/3rr0r-505/LFI-fuzz3r"><img alt="Stars" src="https://img.shields.io/github/stars/3rr0r-505/LFI-fuzz3r.svg?style=social"/></a>
