@@ -1,13 +1,14 @@
 import requests
 import argparse
 import os
+from argformat import StructuredFormatter
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 # Set up command-line argument parsing
 parser = argparse.ArgumentParser(
     description="""Fetch and display content from a URL with potential LFI.
 For more information, visit: https://book.hacktricks.xyz/pentesting-web/file-inclusion""",
-    formatter_class=argparse.RawTextHelpFormatter
+    formatter_class=StructuredFormatter
 )
 parser.add_argument('-u', '--url', type=str, required=True, help="Base URL (e.g., 'http://dev.site/script.php?page=')")
 parser.add_argument('-f', '--file', type=str, help="File containing paths to be appended to the base URL")
