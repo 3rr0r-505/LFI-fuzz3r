@@ -56,6 +56,10 @@ options:
   -v, --verbose          Enable verbose output
   -t, --threads THREADS  Number of threads to use (default: 10)
 ```
+## PathList
+The [default pathlist](https://github.com/3rr0r-505/LFI-fuzz3r/edit/main/paths.txt) is already included in the tool (for linux only). For more exhaustive pathlists visit the following links:
+- [file_inclusion_paths_linux.txt](https://github.com/carlospolop/Auto_Wordlists/blob/main/wordlists/file_inclusion_linux.txt)
+- [file_inclusion_paths_windows.txt](https://github.com/carlospolop/Auto_Wordlists/blob/main/wordlists/file_inclusion_windows.txt)
 
 ## Note
 - The script supports multithreading, but using too many threads may cause server bans or performance issues.
