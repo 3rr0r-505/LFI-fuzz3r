@@ -36,7 +36,7 @@ This tool is designed to identify and exploit potential Local File Inclusion (LF
 
 Install dependencies using:
 ```bash
-pip install requests
+pip install requests argformat
 ```
 
 ## Useage
